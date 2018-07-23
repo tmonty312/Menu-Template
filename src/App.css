@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  background-image: url(https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/13528322_271713423183870_5409462794489086135_o.jpg?_nc_cat=0&oh=13d2b636a428b72a5b1b8d3f2898e05f&oe=5C1027C9);
+  background-size: cover;
+  background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.name-css {
+  background-color: white;
+  height: 10px;
+  width: 25%;
+  padding: 15px;
+  font-size: 20px;
+  color: grey;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.create-button{
+  border-radius: 12px;
+  width: auto;
+  color: white;
+  background-color: transparent;
+  height: 30px;
+  width: auto;
+  font-size: 10px;
+display: inline-block;
+align-content: center
+}
+.Create{
+  height: 450px;
+  padding-top: 5px;
+  width: 100%; 
+}
+.buttons{
+  display: inline-block;
+  background-color: transparent;
+  border: rgb(100, 20, 20);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 4px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 12px;
+  display: block;
+}
+
+.mypies{
+  background-color: transparent;
+  border: 0px;
+  height: 30px;
+  width: 40%;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mypies-price{
+  background-color: transparent;
+  border: 0px;
+  height: 30px;
+  width: 10%;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.App-title {
+  font-size: 4em;
+  color: white;
+  font: 7em sans-serif;
+  text-decoration: overline underline;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+  font-size: 4em;
+  padding-bottom: 50px;
+  color: white;
+  font: 4em sans-serif;
+  text-decoration: overline underline;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
