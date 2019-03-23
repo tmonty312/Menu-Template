@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: url(https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/13528322_271713423183870_5409462794489086135_o.jpg?_nc_cat=0&oh=13d2b636a428b72a5b1b8d3f2898e05f&oe=5C1027C9);
+  background-image: url(./Assets/fullpagegreynum2.png);
+  /* background-color: black; */
   background-size: cover;
   background-repeat: no-repeat;
     backface-visibility: hidden;
@@ -47,7 +48,7 @@ align-content: center
   border: rgb(100, 20, 20);
   color: #FFFFFF;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   padding: 4px;
   width: auto;
   transition: all 0.5s;

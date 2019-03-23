@@ -58,16 +58,22 @@ render(){
          <div>
             <div>
         
-                <input className= "mypies" value={this.state.name} disabled onChange={this.handleName}/>
-                <input className= "mypies-price" value={this.state.price} disabled={!this.state.edit} onChange={this.handlePrice}/>
+                <input className= "mypies" value={this.state.name} />
+                <input className= "mypies-price" value={this.state.price} disabled={!this.state.edit} />
+                <input className= "mypies-price" value={this.state.price} disabled={!this.state.edit} />
+
                 <button className= "buttons" onClick={()=> this.sendUpdate(s.id)}>Save</button>
-                <button className= "buttons" onClick={ this.toggleEdit}>Change Price</button>
+                
+                <button className= "buttons" onClick={this.toggleEdit }>Change Price</button>
                 <button className= "buttons" onClick={()=> this.deletePie(s.id)}>Remove Pie</button>
              </div>
 
-        </div>
+         </div>
         )
 }
 }
 
 export default Pies
+
+// onChange={this.handlePrice}
+// disabled onChange={this.handleName}
